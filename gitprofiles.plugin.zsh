@@ -1,4 +1,4 @@
-# Copyright (c) Bruno Sales <me@baliestri.dev>. Licensed under the MIT License.
+# Copyright (c) Bruno Sales <org@baliestri.dev>. Licensed under the MIT License.
 # See the LICENSE file in the project root for full license information.
 
 # vim: set ts=4 sw=4 tw=0 et :
@@ -23,7 +23,7 @@ function __gitprofiles_hook() {
   typeset -A profile_cfg_map
 
   ## Get the path to the profile file
-  zstyle -s ":empresslabs:git:profile" path profile_filepath
+  zstyle -s ":baliestridev:git:profile" path profile_filepath
 
   ## Check if the file exists
   if [[ ! -f "${profile_filepath}" ]]; then

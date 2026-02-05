@@ -17,7 +17,7 @@ Plugin for managing multiple `git` profiles.
 #### [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 
 ```shell
-git clone https://github.com/empresslabs/gitprofiles.plugin.zsh.git $ZSH_CUSTOM/plugins/gitprofiles
+git clone https://github.com/baliestridev/gitprofiles.plugin.zsh.git $ZSH_CUSTOM/plugins/gitprofiles
 ```
 
 ```shell
@@ -28,25 +28,25 @@ plugins=(... gitprofiles)
 #### [zinit](https://github.com/zdharma-continuum/zinit)
 
 ```shell
-zinit light empresslabs/gitprofiles.plugin.zsh
+zinit light baliestridev/gitprofiles.plugin.zsh
 ```
 
 #### [zi](https://github.com/z-shell/zi)
 
 ```shell
-zi light empresslabs/gitprofiles.plugin.zsh
+zi light baliestridev/gitprofiles.plugin.zsh
 ```
 
 #### [zgenom](https://github.com/jandamm/zgenom)
 
 ```shell
-zgenom load empresslabs/gitprofiles.plugin.zsh
+zgenom load baliestridev/gitprofiles.plugin.zsh
 ```
 
 #### [zplug](https://github.com/zplug/zplug)
 
 ```shell
-zplug empresslabs/gitprofiles.plugin.zsh
+zplug baliestridev/gitprofiles.plugin.zsh
 ```
 
 #### [antidote](https://github.com/mattmc3/antidote.git)
@@ -54,7 +54,7 @@ zplug empresslabs/gitprofiles.plugin.zsh
 Add the following to your .zsh_plugins.txt file for antidote:
 
 ```shell
-empresslabs/gitprofiles.plugin.zsh
+baliestridev/gitprofiles.plugin.zsh
 ```
 
 ## Usage
@@ -64,7 +64,7 @@ empresslabs/gitprofiles.plugin.zsh
 ```sh
 # ~/.zshrc
 
-zstyle ":empresslabs:git:profile" path "$HOME/.config/git/profiles"
+zstyle ":baliestridev:git:profile" path "$HOME/.config/git/profiles"
 ```
 
 #### Add a new profile
@@ -92,6 +92,6 @@ zstyle ":empresslabs:git:profile" path "$HOME/.config/git/profiles"
     "~/src/mytopsecretproject"
 ```
 
-Multiple paths can be defined for a profile, separated by either newline or commas. The paths are processed in the order they are defined, with exact matches taking precedence over wild card matches. Tildes are expanded to ${HOME}.
+Multiple paths can be defined for a profile, separated by either newline or commas. The paths are processed in the order they are defined, with exact matches taking precedence over wild card matches. Tildes are expanded to `${HOME}`.
 
 It is possible to get debug information by setting the `GP_DEBUG` environment variable to any value within your current session.
