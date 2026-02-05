@@ -12,15 +12,7 @@ repo = "gitprofiles.plugin.zsh"
 [changelog]
 # template for the changelog header
 header = """
-<p align="center">
-  <a href="#gh-dark-mode-only" target="_blank" rel="noopener noreferrer">
-    <img src="<RAW_MAIN>/.github/assets/night.svg" alt="gitprofiles.plugin.zsh">
-  </a>
-
-  <a href="#gh-light-mode-only" target="_blank" rel="noopener noreferrer">
-    <img src="<RAW_MAIN>/.github/assets/day.svg" alt="gitprofiles.plugin.zsh">
-  </a>
-</p>
+# Changelog
 
 
 """
