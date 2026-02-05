@@ -1,13 +1,4 @@
-<p align="center">
-<a href="#gh-dark-mode-only" target="_blank" rel="noopener noreferrer">
-<img src="https://raw.githubusercontent.com/baliestridev/gitprofiles.plugin.zsh/refs/heads/main/.github/assets/night.svg" alt="gitprofiles.plugin.zsh">
-</a>
-
-<a href="#gh-light-mode-only" target="_blank" rel="noopener noreferrer">
-<img src="https://raw.githubusercontent.com/baliestridev/gitprofiles.plugin.zsh/refs/heads/main/.github/assets/day.svg" alt="gitprofiles.plugin.zsh">
-</a>
-</p>
-
+# Changelog
 
 ## [2.1.0](https://github.com/baliestridev/gitprofiles.plugin.zsh/compare/v2.0.0..v2.1.0) - 2026-02-05
 
@@ -20,17 +11,6 @@
 
 - Replace old workflow - ([50063ba](https://github.com/baliestridev/gitprofiles.plugin.zsh/commit/50063ba7b977d3d1c362eeacd1f79530de06a296))
 - Move project to new organization - ([1ca16a7](https://github.com/baliestridev/gitprofiles.plugin.zsh/commit/1ca16a7db97c1da0ec1d1374e5dec89ec1af0ec5))
-
-
-<p align="center">
-<a href="#gh-dark-mode-only" target="_blank" rel="noopener noreferrer">
-<img src="https://raw.githubusercontent.com/baliestridev/gitprofiles.plugin.zsh/refs/heads/main/.github/assets/night.svg" alt="gitprofiles.plugin.zsh">
-</a>
-
-<a href="#gh-light-mode-only" target="_blank" rel="noopener noreferrer">
-<img src="https://raw.githubusercontent.com/baliestridev/gitprofiles.plugin.zsh/refs/heads/main/.github/assets/day.svg" alt="gitprofiles.plugin.zsh">
-</a>
-</p>
 
 ## [2.0.0](https://github.com/baliestridev/gitprofiles.plugin.zsh/compare/v1.0.0..v2.0.0) - 2025-02-09
 
